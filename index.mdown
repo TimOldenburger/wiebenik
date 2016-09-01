@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Digitaal portfolio</title>
+		<link rel="shortcut icon" href="File:///C:/Users/Gebruiker/Downloads/texas.png" />
+		<style type="text/css">
+
+			body {
+				background-image: url("File:///C:/Users/Gebruiker/Downloads/background.jpg");
+				background-position: center;
+				background-color: ##0404B4;
+				background-attachment: fixed;
+				font-family: 'arial';
+				font-size: 16px;
+				color: #FFFFFF;
+			}
+
+			table {
+				border: none;
+				background-color: #FFFFFF;
+				opacity: 0.6;
+				color: #0A0A2A;
+				width: 65%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			p {
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+
+			#foot {
+				text-align: center;
+			}
+
+			h1 {
+				text-align: center;
+			}
+
+			h3 {
+				margin-left: 10px;
+			}
+
+			hr {
+				border-color: #0B0B61;
+				background-color: #0B0B61;
+			}
+
+			img {
+				margin-left: 570px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<table>
+			<tr><td>
+				<h1>Wie ben ik?</h1>
+				<p>Hoi, <br /><br />Ik ben Tim Oldenburger, ik woon in Dordrecht samen met mijn ouders en mijn 2 broertjes en mijn zusje.
+				Op dit moment ben ik 17 Jaar oud en volg de opleiding Applicatieontwikkelaar (niveau 4) op het MBO in Dordrecht.</p>
+				<p>In mijn vrije tijd ben ik vaak bezig met sporten, werken of bezig op mijn laptop. Sporten doe ik bij SV Oranje-Wit JO19-4, ofwel A4. Ook ga ik af en toe naar basic fit.<br />
+				Ik werk bij de PLUS vlakbij mijn huis, ondertussen werk ik daar al 2 jaar met veel plezier.</p>
+				<p>Op de foto hieronder sta ik (links) samen met een hele goede vriend. De foto is genomen nadat we allebei ons diploma hadden gekregen van het havo.<br />Klik om de afbeelding om mijn Facebookpagina te bezoeken.
+				<a href="https://www.facebook.com/tim.oldenburger" target="_blank"><img src="File:///C:/Users/Gebruiker/Downloads/pf_facebook.jpg" alt="Afbeelding niet beschikbaar"></a></p>
+			</td></tr>
+			<tr><td>
+				<hr />
+				<h1>Mijn ervaringen</h1>
+				<h3>Werkervaring</h3>
+				<ul>
+					<li>begonnen bij PLUS Boerman
+						<ul>
+							<li>Vakkenvuller, september 2014</li>
+							<li>Kassamedewerker en vakkenvuller, september 2015</li>
+						</ul>
+					<li>Vrijwilliger training geven bij SV Oranje-Wit (JO17-7), augustus 2016</li>
+				</ul>
+				<h3>Studie ervaring</h3>
+				<ul>
+					<li>Maatschappelijke stage havo 3 burendag georganiseerd voor een basisschool, najaar 2013</li>
+					<li>Profielwerkstuk "Kan je zelf een quadcopter maken?" afgerond, april 2016</li>
+					<li>Havo 5 examen gedaan in het profiel Natuur&Techniek met Informatica en M&O, mei 2016</li>
+					<li>Begonnen aan de opleiding Applicatieontwikkelaar MBO 4, augustus 2016</li>
+				</ul>
+			</td></tr>
+			<tr><td>
+				<hr />
+				<h1>Mijn projecten</h1>
+				<p>Op dit moment zijn er nog geen afgeronde projecten maar deze zullen hier na verloop van tijd verschijnen</p>
+				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			</td></tr>
+		</table>
+		<p  id="foot">Copyright&copy; | Created by Tim Oldenburger | last update: 01-09-2016</p>
+	</body>
+</html>
