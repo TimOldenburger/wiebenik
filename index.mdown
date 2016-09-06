@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+	<head
+
 		<meta charset="UTF-8">
-		<title>Digitaal portfolio</title>
+		<title>Digitaal portfolio | Home</title>
 		<link rel="shortcut icon" href="File:///C:/Users/Gebruiker/Downloads/texas.png" />
 		<style type="text/css">
 
@@ -21,18 +22,25 @@
 				background-color: #FFFFFF;
 				opacity: 0.6;
 				color: #0A0A2A;
-				width: 65%;
+				width: 70%;
 				margin-left: auto;
 				margin-right: auto;
+				margin-top: 10px;
 			}
 
 			p {
-				margin-left: 20px;
+				margin-left: 30px;
 				margin-right: 20px;
 			}
 
 			#foot {
 				text-align: center;
+				color: #FFFFFF;
+			}
+
+			a {
+				text-decoration: none;
+				color: #0A0A2A;
 			}
 
 			h1 {
@@ -40,7 +48,34 @@
 			}
 
 			h3 {
-				margin-left: 10px;
+				margin-left: 20px;
+			}
+
+			ul, ol, li {
+				margin-left: 20px;
+			}
+
+			#menu {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #424242;
+				margin-top: 20px;
+			}
+
+			.menu {
+				display: inline;
+			}
+
+			.menu a {
+				display: inline-block;
+				color: #FFFFFF;
+				padding: 14px 16px;
+			}
+
+			.menu a:hover {
+				background-color: #000000
 			}
 
 			hr {
@@ -55,15 +90,49 @@
 		</style>
 	</head>
 	<body>
+		<ul id="menu">
+			<li class="menu"><a href="index.html">Home</a></li>
+			<!--<li class="menu"><a href="wip.html">Ervaringen</a></li>
+			<li class="menu"><a href="wip.html">Projecten</a></li>
+			<li class="menu"><a href="wip.html">Over mij</a></li>-->
+			<li class="menu"><a href="wip.html">!!!WORK IN PROGRESS!!!</a></li>
+		</ul>
 		<table>
 			<tr><td>
 				<h1>Wie ben ik?</h1>
-				<p>Hoi, <br /><br />Ik ben Tim Oldenburger, ik woon in Dordrecht samen met mijn ouders en mijn 2 broertjes en mijn zusje.
-				Op dit moment ben ik 17 Jaar oud en volg de opleiding Applicatieontwikkelaar (niveau 4) op het MBO in Dordrecht.</p>
-				<p>In mijn vrije tijd ben ik vaak bezig met sporten, werken of bezig op mijn laptop. Sporten doe ik bij SV Oranje-Wit JO19-4, ofwel A4. Ook ga ik af en toe naar basic fit.<br />
+				<p>Ik ben Tim Oldenburger, ik woon in Dordrecht samen met mijn ouders en mijn 2 broertjes en mijn zusje.
+				Op dit moment ben ik 17 jaar oud en volg de opleiding Applicatieontwikkelaar (niveau 4) op het mbo in Dordrecht.</p>
+				<p>In mijn vrije tijd ben ik vaak bezig met sporten, werken of bezig op mijn laptop. Sporten doe ik bij SV Oranje-Wit JO19-4, oftewel A4. Ook ga ik af en toe naar basic fit.<br />
 				Ik werk bij de PLUS vlakbij mijn huis, ondertussen werk ik daar al 2 jaar met veel plezier.</p>
-				<p>Op de foto hieronder sta ik (links) samen met een hele goede vriend. De foto is genomen nadat we allebei ons diploma hadden gekregen van het havo.<br />Klik om de afbeelding om mijn Facebookpagina te bezoeken.
+				<p>Op de foto hieronder sta ik (links) samen met een hele goede vriend. De foto is genomen nadat we allebei ons diploma hadden gekregen van de havo.<br />Klik om de afbeelding om mijn Facebookpagina te bezoeken.
 				<a href="https://www.facebook.com/tim.oldenburger" target="_blank"><img src="File:///C:/Users/Gebruiker/Downloads/pf_facebook.jpg" alt="Afbeelding niet beschikbaar"></a></p>
+			</td></tr>
+			<tr><td>
+				<hr />
+				<h1>Skills en Toekomst</h1>
+				<h3>Mijn skills</h3>
+				<p>Om het overzichtelijk te houden geef ik hieronder een lijst van de onderdelen die ik beheers in het vakgebied programmeren. Deze onderdelen beheers ik redelijk goed maar nog zeker niet volledig.</p>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>PHP</li>
+				</ul>
+				<p>Naast dat ik bepaalde onderdelen beheers in het vakgebied programmeren vind ik het ook heel leuk om steeds meer te leren op dit gebied, leergierig is dan misschien wel een positief punt in het ontwikkelen van mijn kennis.<br />Van databases wordt heel veel gebruik gemaakt in het world wide web daarom wil ik vooral op dat gebied mijn kennis heel erg gaan uitbreiden</p>
+				<p>Aan het eind van dit jaar hoop ik dat ik in ieder geval mijn kennis heb uitgebreidt naar onder andere:</p>
+				<ul>
+					<li>HTML (veel meer kennis)</li>
+					<li>CSS (veel meer kennis)</li>
+					<li>PHP (beter leren kennen en kunnen uitvoeren)</li>
+					<li>Javascript, JQuery, Python (als nieuwe taal)</li>
+					<li>Database talen zoals MySQL, JSON en XML leren begrijpen en kunnen maken</li>
+					<li>Object Oriented Coding kunnen begrijpen</li>
+					<li>Alles willen leren over node.js</li>
+					<li>Kunnen zorgen voor een goede SEO bij een website</li>
+				</ul>
+				<h3>Mijn Toekomst</h3>
+				<p>Misschien wel de lastigste vraag die je een student kan stellen: "Hoe zie jij je toekomst voor je?" Ook voor mij was dit lange tijd een heel groot vraagteken, maar sinds ik weet dat ik later iets met informatica wil gaan doen ben ik verder gaan zoeken. Op een gegeven moment kwam ik erachter dat ik misschien wel iets wil gaan doen bij defensie. Sindsdien ben ik me meer gaan richten op het onderdeel ICT en defensie, dit resulteerde in een beroep op de afdeling cyber security. Omdat ze bij defensie op de afdeling cyber security vooral zelf de mensen kiezen die daar gaan werken en het niet bepaald makkelijk is om daarbinnen te komen ben ik van plan om mijn eigen kennis zo veel mogelijk uit te bereiden zodat ik uiteindelijk toch kan gaan doen wat ik leuk vind, met misschien nog een leuk salaris erbij.</p>
+				<p>Wat mij dus te doen staat is vooral het uitbereiden van mijn kennis en om daar maximaal gebruik van te maken ben ik als eerst begonnen op het mbo in Dordrecht om vervolgens door te stromen naar het hbo in Rotterdam, eventueel een cursus ethical hacker erbij zodat ik een website volledig leer kennen en dus makkelijk kan zien wat er fout is bij de beveiliging van een website.<br /> Al met al heb ik wel ongeveer een beeld van mijn toekomst met hopelijk potentie om succesvol te worden in het programmeren en te kunnen blijven doen wat ik leuk vind.</p>
+				<p>Een alternatief is een bedrijf zoals <a href="http://www.fox-it.com" target="_blank" style="color: grey">Fox IT</a> of bij de politie via <a href="http://www.crimediggers.nl" target="_blank" style="color: grey">crimediggers.nl</a>. Maar ook bij bedrijven met een beroep zoals ethical hacker of cyber security vereist meer van je dan dat je alleen kan programmeren, het is vooral heel erg belangrijk dat je ook leert hoe netwerken etc. in elkaar zitten. Om dit alles voldoende te kunnen halen is het vooral belangrijk om doorzettingsvermogen en intresse moet hebben.</p>
 			</td></tr>
 			<tr><td>
 				<hr />
@@ -88,10 +157,12 @@
 			<tr><td>
 				<hr />
 				<h1>Mijn projecten</h1>
-				<p>Op dit moment zijn er nog geen afgeronde projecten maar deze zullen hier na verloop van tijd verschijnen</p>
+				<ul>
+					<li><a href="recept.html">Recept</a></li>
+				</ul>
 				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 			</td></tr>
 		</table>
-		<p  id="foot">Copyright&copy; | Created by Tim Oldenburger | last update: 01-09-2016</p>
+		<p  id="foot">Copyright &copy; 2016 | Created by Tim Oldenburger | last update: 06-09-2016</p>
 	</body>
 </html>
