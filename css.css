@@ -1,0 +1,90 @@
+body {
+	background-image: url("img/backstart.jpg");
+	background-position: center;
+	background-color: ##0404B4;
+	background-attachment: fixed;
+	margin: 0;
+	margin-top: 100px;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+table {
+	border: none;
+	background-color: #FFFFFF;
+	opacity: 0.8;
+	color: #0A0A2A;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+}
+
+p {
+	margin-left: 30px;
+	margin-right: 20px;
+}
+
+#foot {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+a {
+	text-decoration: none;
+	color: #0A0A2A;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	margin-left: 20px;
+}
+
+ul, ol, li {
+	margin: 0;
+}
+
+nav  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin-top: 0px;
+	position: static;
+	top: 0;
+	left: 0;
+}
+
+.menu {
+	display: inline;
+}
+
+.menu a {
+	display: inline-block;
+	color: #FFFFFF;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+	padding: 14px 16px;
+}
+
+.menu a:hover {
+	background-color: #000000
+}
+
+hr {
+	border-color: #0B0B61;
+	background-color: #0B0B61;
+}
+
+img#me {
+	margin-left: 570px;
+	opacity: 1;
+}
+
+img#recept {
+	float: right;
+	margin-right: 70px;
+}
